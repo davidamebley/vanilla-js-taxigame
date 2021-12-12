@@ -1,0 +1,87 @@
+body{
+	padding:0px;
+	margin:0px;
+	background-image: url("https://imgur.com/GdhqGta.png");
+	/*background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,151,255,1) 100%);*/
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+canvas{
+	/* background:white; */
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:80vmin;
+	height:80vmin;
+}
+.overlay{ 
+	background:rgba(0,0,0,0.7);
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:70vmin;
+	height:70vmin;
+	
+	padding:1vmin;
+	margin:0px;
+	color: white;
+	border-radius:2vmin;
+	
+	font-size:3.3vmin;
+}.overlay-interactive{ 
+	position: absolute;
+  	display: none;
+  	transform:translate(-50%,-50%);
+  	width:70vmin;
+	height:70vmin;
+	top: 50%;
+	left: 50%;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+	padding:1vmin;
+	border-radius:2vmin;
+	z-index: 2;
+	cursor: pointer;}
+.overlay-passenger{ 
+	position: absolute;
+  	display: none;
+  	transform:translate(-50%,-50%);
+  	width:100vmin;
+	height:100vmin;
+	top: 50%;
+	left: 50%;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+	padding:1vmin;
+	border-radius:2vmin;
+	z-index: 2;
+	cursor: pointer;
+}
+
+.overlay-text{
+  position: absolute;
+  font-family: "Comic Sans MS";
+  top: 50%;
+  left: 50%;
+  font-size: 25px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+.scoreboard-text{
+  font-family: "Arial";
+  top: 5%;
+  left: 5%;
+  font-size: 22px;
+  color: black;
+  /*transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);*/
+}
+
+a{
+	color:white;
+}

@@ -1,1 +1,79 @@
-"Hello World" 
+<html>
+    <head>
+        <title>Project</title>
+        <link rel="stylesheet" href='main.css'>
+        <script src='main2.js'> </script>
+    </head>
+
+<body>
+    <canvas id="backgroundforpassenger"></canvas>
+    <canvas id="obstaclesCanvas"></canvas>
+    <canvas id="basicRoadCanvas"></canvas>
+    <canvas id="passengerCanvas"></canvas>
+
+
+
+    
+    <pre  class="overlay" id="removeoverlay" onclick="removeOverlay()">
+        Click To Start the Game:
+
+    </pre>
+    <pre class='overlay'  id='showoverlay' style="display: none;" onclick="document.location.reload(true)">
+        Game Over
+        Score :
+        Click to Play Again
+
+    </pre>
+
+    <!-- Display Text asking to pick Passenger -->
+    <div class='overlay-interactive' id='pick_passenger_overlay'>
+        <div class="overlay-text" id="first_passenger_text_overlay"></div>
+    </div>
+
+
+    <!-- Dropping Passenger Overlay -->
+    <div class='overlay-passenger' style='display:none' id="pause">
+        <div class="overlay-text"> Dropping passenger, please wait... </div>
+    </div>
+
+    <!-- Picking New Passenger Overlay -->
+    <div class='overlay-passenger' style='display:none' id="picking_new_passenger_overlay">
+        <div class="overlay-text"> Picking new passenger...</div>
+    </div>
+
+    <!-- Passenger Picked Click-Resume Overlay -->
+    <div class='overlay-passenger' style='display:none' id="next_passenger_picked_overlay" onclick='resumeAnimation()'>
+        <div class="overlay-text" id="resume_text"></div> 
+    </div>
+
+
+
+    <pre class='overlay' style='display:none' id="gamestatus" onclick="document.location.reload(true)">
+    </pre>
+
+    <pre class='overlay' style='display:none' id="timeover" onclick="document.location.reload(true)">
+    </pre>
+    <pre class='overlay' style='display:none' id="lastpassenger" onclick="lastPassengerDroped()">
+        
+    </pre>
+   
+
+    <div class="scoreboard-text" id='secondscounter'></div>
+    <div class="scoreboard-text" id='gamespeed'></div>
+    <div class="scoreboard-text" id="countdown"></div>
+    <div class="scoreboard-text" id="timetravelled"></div>
+    <div class="scoreboard-text" id="distancecovered"></div>
+    <div class="scoreboard-text" id="score"></div>
+    <div class="scoreboard-text" id="destinationdistance"></div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

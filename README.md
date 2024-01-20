@@ -8,7 +8,7 @@ This project was designed to demonstrate our proficiency in JavaScript and web d
 ## Usage
 To play the Taxi Game:
 1. Clone the repository to your local machine.
-   `git clone https://github.com/davidamebley/taxigame.git`
+   \n `git clone https://github.com/davidamebley/taxigame.git`
 2. Open the taxi game folder created on your machine.
 4. Open the `index.html` file in a modern web browser.
 5. Use the keyboard controls to navigate the taxi, pick up passengers, and avoid obstacles.

@@ -3,7 +3,7 @@ This is a dynamic, interactive web game developed using vanilla JavaScript, prim
 
 Enjoy it from here https://davidamebley.github.io/taxigame/
 ## Goal
-This project was designed to demonstrate our proficiency in JavaScript and web development concepts learned in the course. It serves as a practical application of various techniques like animation, user interaction, and real-time gaming logic in a web environment.
+This project was designed to demonstrate my proficiency in JavaScript and web development concepts learned in the course. It serves as a practical application of various techniques like animation, user interaction, and real-time gaming logic in a web environment.
 
 ## Usage
 To play the Taxi Game:

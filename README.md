@@ -1,7 +1,7 @@
 # vanilla-js-taxigame
 This is a dynamic, interactive web game developed using vanilla JavaScript, primarily utilizing HTML canvases, animations, and CSS. This game was created as part of a capstone project during a Visual Web Development course in my Master's program. It showcases advanced programming skills and a deep understanding of web-based game development.
 
-Enjoy it from here https://davidamebley.github.io/taxigame/
+Enjoy it from here [https://davidamebley.github.io/taxigame/](https://davidamebley.github.io/vanilla-js-taxigame/)
 ## Goal
 This project was designed to demonstrate my proficiency in JavaScript and web development concepts learned in the course. It serves as a practical application of various techniques like animation, user interaction, and real-time gaming logic in a web environment.
 
